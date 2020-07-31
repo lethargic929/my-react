@@ -1,0 +1,32 @@
+$class-prefix:"tabs";
+.#{$class-prefix}{
+  &-bar {
+    margin-bottom:16px;
+  }
+  &-nav {
+    font-size: 14px;
+    &:after,
+    &:before{
+      content: "";
+      display: table;
+    }
+    &:after{
+      clear: both;
+    }
+  }
+  &-nav>&-tab{
+    float: left;
+    list-style: none;
+    margin-right: 24px;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: #666;
+    cursor:pointer;
+  }
+  &-content &-panel {
+    display: none
+  }
+  &-content &-active {
+    display: block
+  }
+}

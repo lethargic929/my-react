@@ -1,0 +1,3 @@
+Ant Design 组件内只显示定义内容区域的子组件集合 调用方法简洁  把复杂的逻辑留给组件去实现
+React-Bootstrap 和 Material UI 所有定义的子组件都显示展示出来 易于理解 自定义能力强 调用过程笨重
+Recompose库 pure方法 ->将无状态组件转换成class语法加上PureRender后的组件 
